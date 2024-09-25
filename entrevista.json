@@ -1,46 +1,76 @@
 {
-    "entrevista": {
-      "total_entrevistados": 1000000,
-      "resultados": {
-        "Nintendo_Switch": 40,
-        "PlayStation_5": 30,
-        "PlayStation_4": 20,
-        "Xbox_Series_X_S": 7,
-        "Xbox_One": 2,
-        "Outros": 1
+  "entrevista": {
+    "consoles": [
+      {
+        "nome": "Nintendo Switch",
+        "vendas": "130 milhões",
+        "opiniao": [
+          {
+            "participante": 1,
+            "comentario": "A versatilidade é incrível!"
+          },
+          {
+            "participante": 2,
+            "comentario": "Tem jogos para todos os gostos."
+          }
+        ]
       },
-      "respostas": [
-        {
-          "nome": "João",
-          "idade": 25,
-          "pais": "Brasil",
-          "resposta": "Eu amo o Nintendo Switch! A possibilidade de jogar tanto em casa quanto em movimento é perfeita para mim. E os jogos da Nintendo são sempre incríveis!"
-        },
-        {
-          "nome": "Emily",
-          "idade": 32,
-          "pais": "EUA",
-          "resposta": "Definitivamente, o PlayStation 5. Os gráficos são impressionantes e os jogos exclusivos, como Demon’s Souls, são fenomenais."
-        },
-        {
-          "nome": "Akira",
-          "idade": 28,
-          "pais": "Japão",
-          "resposta": "Para mim, o Switch é o melhor. É super acessível e tem muitos jogos que eu amo, como Animal Crossing."
-        },
-        {
-          "nome": "Sarah",
-          "idade": 22,
-          "pais": "Reino Unido",
-          "resposta": "Eu ainda sou fã do PS4. Embora o PS5 seja ótimo, tenho tantos jogos no PS4 que ainda jogo regularmente."
-        },
-        {
-          "nome": "Miguel",
-          "idade": 18,
-          "pais": "Argentina",
-          "resposta": "O Xbox Series S é uma ótima opção, principalmente por conta do Game Pass. Você tem acesso a muitos jogos por um preço bom."
-        }
-      ]
-    }
+      {
+        "nome": "PlayStation 5",
+        "vendas": "40 milhões",
+        "opiniao": [
+          {
+            "participante": 3,
+            "comentario": "Os exclusivos são um grande atrativo."
+          },
+          {
+            "participante": 4,
+            "comentario": "A retrocompatibilidade ajuda muito."
+          }
+        ]
+      },
+      {
+        "nome": "Xbox Series X/S",
+        "vendas": "20 milhões",
+        "opiniao": [
+          {
+            "participante": 5,
+            "comentario": "A oferta de jogos é tentadora."
+          },
+          {
+            "participante": 6,
+            "comentario": "O Game Pass atrai novos jogadores."
+          }
+        ]
+      },
+      {
+        "nome": "PlayStation 4",
+        "vendas": "117 milhões",
+        "opiniao": [
+          {
+            "participante": 7,
+            "comentario": "A comunidade ativa é um grande fator."
+          },
+          {
+            "participante": 8,
+            "comentario": "Jogos específicos ainda atraem muitos."
+          }
+        ]
+      },
+      {
+        "nome": "Nintendo 3DS",
+        "vendas": "75 milhões",
+        "opiniao": [
+          {
+            "participante": 9,
+            "comentario": "A nostalgia e os jogos clássicos fazem a diferença."
+          },
+          {
+            "participante": 10,
+            "comentario": "É um console que marcou uma geração."
+          }
+        ]
+      }
+    ]
   }
-  
+}
